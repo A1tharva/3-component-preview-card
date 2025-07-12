@@ -1,0 +1,82 @@
+body{
+   margin: 0;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.card-container{
+    display: flex;
+    color: white ;
+    margin: 1.5rem;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 900px;
+}
+
+.card {
+    padding: 3.9rem;
+    line-height: 26px;
+    display: flex;
+    flex-direction:column;
+    width: 100% ;
+}
+
+.orange-card{
+    background-color:  hsl(31, 77%, 52%);
+}
+
+
+.green-card{
+    background-color: hsl(184, 100%, 22%);
+    
+}
+
+.darkgreen-card{
+    background-color:  hsl(179, 100%, 13%);
+}
+
+.card img{
+    width: 64px;
+}
+.card h1 {
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 2.7rem;
+}
+
+.card p {
+    font-family: "Lexend Deca", sans-serif;
+    opacity: 0.6;
+    margin-bottom: 2.5rem;
+}
+
+.card a {
+   display: inline-block;
+   color: inherit;
+   text-decoration: none;
+   border: 1px solid white ;
+   padding: 1rem 2rem;
+   border-radius: 2rem;
+   margin-top: auto;
+   /* align-self: center;  same as next  */
+   margin-right: auto ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
